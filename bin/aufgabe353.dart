@@ -44,7 +44,7 @@ int getNumberOfVocals(String text)
   {
     for(int i = 0; i < text.length; i++)
     {
-      text[i] == vokal? numVokals++:();
+      text[i].toLowerCase() == vokal? numVokals++:();
     }
   }
   return numVokals;
